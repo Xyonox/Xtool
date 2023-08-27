@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="de">
 <body>
-  <div class="content">
-    <h1>Xtool</h1>
+  </p>
   </div>
-    <p>Xtool ist ein Framework um /</p>
+    <p></p>
 
     Version: 0.0.0
     published: none
