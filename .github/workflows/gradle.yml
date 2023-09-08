@@ -1,10 +1,10 @@
-name: Xtool
+name: wt
 on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@2v
+      - uses: actions/checkout@v2
       - name: Set up JDK 17
         uses: actions/setup-java@v2
         with:
