@@ -1,0 +1,17 @@
+name: Xtool
+on: [push]
+jobs:
+  build:
+    runs-on:
+      - windows
+      - macos
+      - linux
+    steps:
+      - uses: actions/checkout@2v
+      - name: Set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          java-version: 17
+          distribution: 'adopt'
+      - name: Build with Gradle
+        run: ./gradlew build
