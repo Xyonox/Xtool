@@ -14,8 +14,6 @@ dependencies {
     implementation 'org.jetbrains:annotations:24.0.0'
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
-    implementation 'de.craftsblock.craftscore:CraftsCore:3.7.23-SNAPSHOT'
-    implementation 'com.google.code.gson:gson:2.10.1'
 }
 
 test {
