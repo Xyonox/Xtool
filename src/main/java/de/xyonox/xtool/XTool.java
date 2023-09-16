@@ -1,7 +1,6 @@
 package de.xyonox.xtool;
 
-import de.craftsblock.craftscore.json.Json;
-import de.craftsblock.craftscore.json.JsonParser;
+
 import de.xyonox.xtool.console.CommandPacket;
 import de.xyonox.xtool.utils.temp.Jiens;
 import org.jetbrains.annotations.NotNull;
